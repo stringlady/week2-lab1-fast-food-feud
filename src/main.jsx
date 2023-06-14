@@ -5,7 +5,7 @@ import "./globals.css"
 
 const container = createRoot(document.getElementById("root"))
 container.render(
-  <StrictMode>
+  <React.StrictMode>
     <App />
-  </StrictMode>,
+  </React.StrictMode>,
 )
